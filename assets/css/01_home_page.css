@@ -299,35 +299,51 @@
     color: #7B7B7B;
 }
 
-.before::before {
-    content: "___";
-}
-
-.after::after {
-    content: "___";
-}
-
-.mt_30{
+.mt_30 {
     margin-top: 30px;
-} 
-.mb_40{
+}
+
+.mb_40 {
     margin-bottom: 40px;
 }
 
-.mt_40{
+.mt_40 {
     margin-top: 40px;
 }
 
-.border_solid{
+.border_solid {
     border: 2px solid #373737;
 }
 
 
-.box{
+.box {
     width: 500px;
     height: 15px;
     background-color: #FF5300;
 }
+
+a:hover {
+    color: #FF5300;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+.mtb_6 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.mtb_30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.display_inline_block {
+    display: inline-block;
+}
+
 
 
 @media (max-width:992px) {
@@ -341,7 +357,7 @@
         height: 100vh;
         position: fixed;
         width: 100%;
-        top: 71px;
+        top: 70px;
         left: -100%;
         justify-content: center;
         transition: all 0.5s linear;
@@ -361,7 +377,7 @@
         padding-right: 12px;
     }
 
-    .md_mt_24{
+    .md_mt_24 {
         margin-top: 24px;
     }
 
@@ -385,6 +401,11 @@
     }
 
 
+    .md_w_490 {
+        width: 490px;
+    }
+
+
 }
 
 @media (max-width:500px) {
@@ -396,13 +417,13 @@
         line-height: 40px;
     }
 
-    .xsm_col_12{
+    .xsm_col_12 {
         width: 100%;
         padding-left: 12px;
         padding-right: 12px;
     }
 
-    .xsm_mt_24{
+    .xsm_mt_24 {
         margin-top: 24px;
     }
 }
@@ -423,4 +444,82 @@
     .mt_24 {
         margin-top: 24px;
     }
+
+    .w_544 {
+        width: 544px;
+    }
+
+    .w_491 {
+        width: 491px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.w3docs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #7c7979;
+    border-radius: 50px;
+}
+
+
+/* .main:hover input~.w3docs {
+      background-color: gray;
+  }
+
+  .main input:active~.w3docs {
+      background-color: white;
+  } */
+
+.main input:checked~.w3docs {
+    background-color: #FF5300;
+}
+
+.w3docs:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.main input:checked~.w3docs:after {
+    display: block;
+}
+
+
+.main .w3docs:after {
+    left: 7px;
+    bottom: 6px;
+    width: 5px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
 }
