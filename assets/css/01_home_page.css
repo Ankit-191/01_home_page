@@ -28,7 +28,10 @@
     position: absolute;
 }
 
-
+.padding_tb_20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .lg_col_4 {
     width: 33.33%;
@@ -235,6 +238,10 @@
     padding-top: 25px;
 }
 
+/* .padding_b_25{
+    padding-bottom: 25px;
+} */
+
 .mt_58 {
     margin-top: 88px;
 }
@@ -339,7 +346,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .lg_col_4 :hover .box {
@@ -379,11 +386,63 @@ ul li:hover a.bg_color_change {
     position: relative;
 }
 
+.padding_25 {
+    padding: 25px;
+}
+
+.mt_7 {
+    margin-top: 7px;
+}
+
+.mt_25 {
+    margin-top: 25px;
+}
+
+.m_l_15 {
+    margin-left: 15px;
+}
+
+.padding_tb_30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.border_right_2 {
+    border-right: 3px solid #EFEFEF;
+}
+
+.border_r_4 {
+    border-radius: 4px;
+}
+
+.padding_tb_40 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.over_flow_auto{
+    overflow: auto;
+}
+
 
 
 @media (max-width:992px) {
+    .md_t_30 {
+        margin-top: 30px;
+    }
+
+    .border_none {
+        border: none;
+    }
+
     .menu {
         display: block;
+    }
+
+   
+
+    .md_mt_40{
+        margin-top: 40px;
     }
 
     .md_navbar {
@@ -392,7 +451,7 @@ ul li:hover a.bg_color_change {
         height: 100vh;
         position: fixed;
         width: 100%;
-        top: 70px;
+        top: 0px;
         left: -100%;
         justify-content: center;
         transition: all 0.5s linear;
@@ -426,8 +485,14 @@ ul li:hover a.bg_color_change {
         padding-right: 12px;
     }
 
+    .z_index_9 {
+        z-index: 9;
+    }
+
     .md_postion_sticky {
         position: sticky;
+        width: 100%;
+        left: 0px;
         top: 0px;
     }
 
@@ -454,8 +519,18 @@ ul li:hover a.bg_color_change {
         line-height: 40px;
     }
 
+    .xsm_mt_40 {
+        margin-top: 40px;
+    }
+
     .xsm_col_12 {
         width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .xsm_col_6 {
+        width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -468,7 +543,7 @@ ul li:hover a.bg_color_change {
         margin-top: 24px;
     }
 
-   
+
 
 }
 
