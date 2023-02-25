@@ -166,6 +166,33 @@
     line-height: 30px;
 }
 
+.input_box input {
+    width: 330px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.input_box{
+     background-color: white;
+     border-radius: 5px;
+}
+
+.btn_subscribe {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: none;
+    background:#FF5300;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 33px;
+}
+
+.padding_40 {
+    padding: 50px;
+}
+
 .fw_500 {
     font-weight: 500;
 }
@@ -212,15 +239,15 @@
     font-weight: 400;
 }
 
-.heigth_100{
+.heigth_100 {
     height: 100%;
 }
 
-.fs_9{
+.fs_9 {
     font-size: 9px;
 }
 
-.flex_direction_col{
+.flex_direction_col {
     flex-direction: column;
 }
 
@@ -442,7 +469,7 @@ ul li:hover a.bg_color_change {
     margin-left: 5px;
 }
 
-.padding_15{
+.padding_15 {
     padding: 15px;
 }
 
@@ -537,7 +564,7 @@ ul li:hover a.bg_color_change {
         padding-right: 12px;
     }
 
-    .sm_mt_24{
+    .sm_mt_24 {
         margin-top: 24px;
     }
 }
