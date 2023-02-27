@@ -29,10 +29,10 @@
 .slick-prev:before,
 .slick-next:before {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1;
     opacity: .75;
-    color: #b31414;
+    color: #FF5300;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -502,7 +502,7 @@ ul li:hover a.bg_color_change {
     background-color: #FF5300;
 } */
 
-.footer_box:hover path{
+.footer_box:hover path {
     fill: #FF5300;
 }
 
@@ -525,9 +525,10 @@ ul li:hover a.bg_color_change {
     border-radius: 50%;
 }
 
-.flex_direction_row_reverse{
+.flex_direction_row_reverse {
     flex-direction: row-reverse;
 }
+
 @media (max-width:992px) {
     .md_flex_diraction_col {
         flex-direction: column;
